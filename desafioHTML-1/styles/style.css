@@ -71,13 +71,27 @@ ul > a {
         justify-content: center;
     }
 
+    .logo {
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .logo > p{
+        font-family: 'Public Sans', sans-serif;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 47px;
+        color: black;
+        transform: translateY(-5px);
+    }
+
     .menu > ul {
         flex-direction: column;
-        margin-top: 50px;
+        padding: 32px;
     }
 
     .btn {
-        margin-top: 50px;
         font-weight: 400;
         font-size: 40px;
         line-height: 47px;

@@ -3,7 +3,64 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: roboto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.lupa {
+    width: 25px;
+    
+}
+
+input {
+    width: 400px;
+    padding: 5px;
+    border-radius: 8px;
+    border: 0.5px solid #CCCCCC;
+}
+
+.video-play {
+    transform: translateX(50px);
+}
+
+.descricao-video-pay {
+    transform: translateX(50px);
 }
 
 /*Definição layout*/
+
+main {
+    display: grid ;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
+    height: 900px;
+
+}
+
+.area-login {
+    grid-area: 1 / 1 / 4 / 4 ;
+    padding-top: 10px;
+
+}
+
+.area-video {
+    grid-area: 2/1/6/3;
+    transform: translateY(20px);
+}
+
+.area-propaganda {
+    grid-area: 2/3/2/4;
+    transform: translateY(20px);
+}
+
+.sugestao-video-1 {
+    grid-area: 3/3/4/4;
+}
+
+

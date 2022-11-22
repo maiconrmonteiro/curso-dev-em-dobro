@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+    background-color: var(--neutral-dark);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nft-card {
+    background-color: var(--neutral-medium);
+    max-width: 350px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.equilibrium-card {
+    width: 100%;
+    border-radius: 7px;
+}
+
+.title {
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+
+.txt-card {
+    color: var(--primary-soft);
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.txt-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.txt-info .valor {
+    color: var(--primary-medium);
+} 
+
+.txt-info .days-left {
+    color: var(--primary-soft);
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    border-top: 1px solid var(--primary-soft);
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.avatar {
+    width: 32px;
+    border-radius: 50%;
+    border: 1px solid var(--primary-soft);
+    margin-right: 18px;
+}
+
+.txt-creator {
+    color: var(--primary-soft);
+}
+
+.txt-creator > a {
+    color: white;
+}
